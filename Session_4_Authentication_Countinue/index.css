@@ -1,0 +1,13 @@
+.d-flex {
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.centering { 
+    justify-content: center;
+    align-items: center;
+}
+.error-message{
+    color: red;
+}

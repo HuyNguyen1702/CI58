@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,html{
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+            background-color: lightgray;
+        }
+
+        .item{
+            margin: 5px;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: green;
+
+        }
+        .grow-1{
+            flex-grow: 1;
+        }
+
+        .grow-2{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item grow-1">1</div>
+        <div class="item grow-1">2</div>
+        <div class="item grow-2">3</div>
+        <div class="item" style="width: 50px">4</div>
+    </div>
+</body>
+</html>

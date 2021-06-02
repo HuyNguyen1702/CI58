@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.centering { 
+    justify-content: center;
+    align-items: center;
+}
+.error-message{
+    color: red;
+}
+.d-flex {
+    display: flex;
+}
+.grow-1{
+    flex :1;
+}
+.item{
+    background-color: green;
+    border: 1px solid black;
+}
+.column{
+    flex-direction: column;
+}
+
+.conversation-item{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px 5px;
+    padding: 5px;
+    font-family:  sans-serif;
+}
+
+.conversation-item:hover{
+    background-color: lightgreen;
+}
+
+.conversation-item.active{
+    background-color: cyan;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
